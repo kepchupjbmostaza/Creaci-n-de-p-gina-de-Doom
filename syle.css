@@ -1,0 +1,87 @@
+
+body {
+    background-color: #0d0000; 
+    color: #00ff00;            
+    font-family: "Courier New", Courier, monospace; 
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+
+header h1 {
+    color: #ff0000;
+    font-size: 2.5rem;
+    text-shadow: 3px 3px #550000;
+    margin-bottom: 5px;
+}
+
+.subtitle {
+    color: #ffcc00;
+    font-weight: bold;
+}
+
+nav {
+    margin: 20px 0;
+    padding: 10px;
+    background-color: #220000;
+    border: 2px dashed #ff0000;
+}
+
+nav a {
+    color: #00ffff;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 15px;
+}
+
+nav a:hover {
+    color: #ffffff;
+    background-color: #ff0000;
+}
+
+main {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.caja-retro {
+    background-color: #1a0505;
+    border: 4px ridge #aa0000;
+    margin-bottom: 25px;
+    padding: 15px;
+    text-align: left;
+}
+
+.caja-retro h2 {
+    color: #ff3333;
+    border-bottom: 2px solid #550000;
+    padding-bottom: 5px;
+    margin-top: 0;
+}
+
+.tarjeta {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.img-doom {
+    width: 120px;
+    height: 120px;
+    object-fit: contain;
+    border: 2px solid #ffcc00;
+    background-color: #000;
+    image-rendering: pixelated; 
+}
+
+.cacodemon-titulo {
+  color: #ff6666;
+}
+
+footer {
+    margin-top: 30px;
+    padding-top: 10px;
+    border-top: 1px solid #333;
+    color: #888;
+}
